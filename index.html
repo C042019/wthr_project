@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/9bd6495949.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>personal weather app</title>
+</head>
+
+<body>
+    <div class="allWeather">
+        <div class="container">
+            <h1 id="date"></h1>
+            <h2 class="cityName" id="city">Alpharetta</h2>
+            <div class="row">
+                <div class="col">Humidity: <span id="humidity"></span>%</div>
+                <div class="col">Wind speed:<span id="wind"></span> mph</div>
+            </div>
+            <h2>Forecast for the week</h2>
+            <div class="dayOf" id="temperature"><span class="units">°F</span></br><span class="second-line">
+                    70°/62°</span></div>
+            <div class="row">
+                <div class="col"><i class="fas fa-smog"></i></div>
+                <div class="col"><i class="fas fa-cloud"></i></div>
+                <div class="col"><i class="fas fa-wind"></i></div>
+                <div class="col"><i class="fas fa-cloud"></i></div>
+                <div class="col"><i class="fas fa-sun"></i></div>
+                <div class="w-100"></div>
+                <div class="col">70°/70°</div>
+                <div class="col">70°/70°</div>
+                <div class="col">70°/70°</div>
+                <div class="col">70°/70°</div>
+                <div class="col">70°/70°</div>
+                <div class="w-100"></div>
+                <div class="col">SAT</div>
+                <div class="col">SUN</div>
+                <div class="col">MON</div>
+                <div class="col">TUE</div>
+                <div class="col">WED</div>
+            </div>
+            <form id="search-bar">
+                <input class="form-control form-control-lg" id="cityInput" type="text" placeholder="Enter a city">
+                <button type="button" class="btn btn-secondary">Enter</button>
+            </form>
+        </div>
+    </div>
+    </div>
+    <script src= "jvscript.js"></script>
+</body>
+
+</html>

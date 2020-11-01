@@ -1,0 +1,53 @@
+h1 {
+  font-family: "Epilogue", sans-serif;
+  text-align: center;
+  padding: 20px;
+  color: #2d132c;
+}
+
+h2 {
+  font-family: "Epilogue", sans-serif;
+  text-align: center;
+  color: #2d132c;
+  padding-top: 15px;
+}
+button {
+  margin: 0 auto;
+  display: block;
+}
+form {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.col {
+  font-family: "Epilogue", sans-serif;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 15px;
+  color: #2d132c;
+}
+.form-group {
+  font-family: "Epilogue", sans-serif;
+  padding: 20px 10px 5px;
+  color: #2d132c;
+}
+.allWeather {
+  width: 450px;
+  display: block;
+  margin: 0 auto;
+  background-image: linear-gradient(#ee4540, #801336);
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.dayOf {
+  text-align: center;
+  font-size: 40px;
+  color: #2d132c;
+}
+.second-line {
+  font-size: 25px;
+}
+.cityName {
+  font-size: 40px;
+}
